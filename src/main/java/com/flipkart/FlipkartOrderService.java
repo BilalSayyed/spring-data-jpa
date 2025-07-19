@@ -12,7 +12,6 @@ public class FlipkartOrderService {
 private FlipkartOrderRepository flipkartOrderRepository;
 public void addFlipkartOrder(FlipkartOrder flipkartOrder)
 {
-	System.out.println("add Filpkart Order called!");
 	flipkartOrderRepository.save(flipkartOrder);
 }
 }
