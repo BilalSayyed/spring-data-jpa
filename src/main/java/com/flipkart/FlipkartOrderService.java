@@ -13,6 +13,7 @@ private FlipkartOrderRepository flipkartOrderRepository;
 public void addFlipkartOrder(FlipkartOrder flipkartOrder)
 {
 	//
+	String s="hi";
 	flipkartOrderRepository.save(flipkartOrder);
 }
 }
