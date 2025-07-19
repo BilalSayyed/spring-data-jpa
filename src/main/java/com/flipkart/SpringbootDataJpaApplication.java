@@ -14,7 +14,8 @@ public class SpringbootDataJpaApplication {
 	FlipkartOrder flipkartOrder=new FlipkartOrder("IPHONE", 90000.00);
 	FlipkartOrderService flipkartOrderService=applicationContext.getBean(FlipkartOrderService.class);
 	flipkartOrderService.addFlipkartOrder(flipkartOrder);
-	
+	int i=10;
+	int j=20;
 	
 	}
 
